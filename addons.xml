@@ -571,7 +571,7 @@
 
 <addon
   id="plugin.video.salemmax.search.youtube"
-  version="2.3.8"
+  version="2.3.9"
   name="***[COLOR yellow]Search Youtube[/COLOR]***"
   provider-name="Salemmax và kodi4vn">
   <requires>
