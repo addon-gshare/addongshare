@@ -2070,7 +2070,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 
 <addon id="script.module.beautifulsoup4"
        name="BeautifulSoup4"
-       version="4.5.3"
+       version="4.6.2"
        provider-name="Leonard Richardson (leonardr@segfault.org)">
   <requires>
     <import addon="xbmc.python" 
