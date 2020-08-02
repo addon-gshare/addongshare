@@ -24,7 +24,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.salemmax.bimozie" name="BimoZie" version="0.3.14" provider-name="billy.nguyen">
+<addon id="plugin.video.salemmax.bimozie" name="BimoZie" version="0.4.6" provider-name="billy.nguyen">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.module.beautifulsoup4" version="4.3.1"/>
@@ -629,7 +629,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.salemmax.xxx" name="[COLOR red]Xem Phim Sex Tỗng Hợp[/COLOR]" version="2018.09.14" provider-name="[COLOR lime]Salemmax[/COLOR]">
+<addon id="plugin.video.salemmax.xxx" name="[COLOR red]Xem Phim Sex Tỗng Hợp[/COLOR]" version="2020.8.2" provider-name="[COLOR lime]Salemmax[/COLOR]">
     <requires>
     </requires>
     <extension point="xbmc.python.pluginsource"
