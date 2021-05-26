@@ -24,23 +24,34 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.salemmax.bimozie" name="BimoZie" version="0.4.6" provider-name="billy.nguyen">
+<addon id="plugin.video.bimozie" name="BimoZie" version="2021.05.26" provider-name="billy.nguyen">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
-        <import addon="script.module.beautifulsoup4" version="4.3.1"/>
-        <import addon="script.module.pycryptodome" version="3.4.1" optional="true"/>
-        <import addon="script.module.resolveurl" version="5.0.24"/>
-        <import addon="script.module.requests" version="2.7.0" />
-        <import addon="script.module.youtube.dl" version="18.1107.0"/>
+        <import addon="script.module.six" version="1.13.0"/>
+        <import addon="script.module.kodi-six" version="0.1.3"/>
+        <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+        <import addon="script.module.requests" version="2.7.0"/>
+        <import addon="script.module.pycryptodome" version="3.4.3"/>
+        <import addon="script.module.routing" version="0.2.3"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides></provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Bimozie addon</summary>
-        <description>This plugin allows you to watch movies from several vietnamese websites likes bilutv phimmedia...
+        <description>This plugin allows you to watch movies from several vietnamese websites vkool phimmoi phimmedia
+            hdvietnam...
         </description>
         <disclaimer>The provider is not responsible for any issues caused by using this addon.
+            Due to the nature of our content, we are not responsible for the content streamed to your device and neither
+            do we condone piracy so you must satisfy yourself that either you or the sites accessed for streaming have
+            the copyright agreements in place and are entitled to access this content.
+            We do not host or upload any video, films, media file, live streams (avi, mov, flv, mpg, mpeg, divx, dvd
+            rip, mp3, mp4, torrent, ipod, psp). KodiTips is not responsible for the accuracy, compliance, copyright,
+            legality, decency, or any other aspect of the content of streamed from your device. If you have any legal
+            issues please contact the appropriate media file owners or host sites.
+            We have no control over the links on any site that we provide a link to. If you see any form of
+            infringements, please contact appropriate media file owners or host sites immediately.
         </disclaimer>
         <platform>all</platform>
         <email>billythekidsde@gmail.com</email>
